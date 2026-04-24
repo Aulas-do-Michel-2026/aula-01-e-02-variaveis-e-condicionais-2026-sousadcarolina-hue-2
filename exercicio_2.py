@@ -14,8 +14,7 @@ Resposta:
 Média: 140 mg
 """
 
-
 peso_paciente = float(input('Digite o peso do paciente em kg: '))
 dose_recomendada = (peso_paciente) * (2)
 
-print (f'A dose recomendada é de {dose_recomendada} mg para o paciente')
+print (f' A dose de medicamento recomendada é {dose_recomendada} mg ')
