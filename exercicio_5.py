@@ -55,3 +55,14 @@ Resposta:
 Não
 
 """
+
+variante_cromossomo = input('Informe o cromossomo desejado em forma de texto chr1, chr2..: ')
+posição_variante = int(input('Digite a posição da variante: '))
+genoma_ref = input('Digite o genoma referência: ')
+
+if variante_cromossomo == 'chr17' and genoma_ref == 'hg19' and posição_variante >=41196312 and posição_variante <=41277500:
+      print('SIM')
+elif variante_cromossomo == 'chr17' and genoma_ref == 'hg38'and posição_variante >=43044295 and posição_variante <=43125483:
+    print('SIM')
+else:
+    print('NÃO')
