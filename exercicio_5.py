@@ -56,14 +56,14 @@ Não
 
 """
 
-variante_cromossomo = input('Informe o cromossomo desejado em forma de texto chr1, chr2..: ')
-posição_variante = int(input('Digite a posição da variante: '))
+variante_cromossomo = input('Digite o cromossomo: ')
+posicao_variante = int(input('Digite a posição: '))
 genoma_ref = input('Digite o genoma referência: ')
 
 
-if variante_cromossomo == 'chr17' and  41196312 <= posição_variante <=41277500 and genoma_ref == 'hg19':
-      print('SIM')
-elif variante_cromossomo =='chr17' and 43044295 <= posição_variante <= 43125483 and genoma_ref == 'hg38':
-  print ('SIM')
+if variante_cromossomo == 'chr17' and  41196312 <= posicao_variante <=41277500 and genoma_ref == 'hg19':
+      print('Sim')
+elif variante_cromossomo =='chr17' and 43044295 <= posicao_variante <= 43125483 and genoma_ref == 'hg38':
+  print ('Sim')
 else:
-    print('NÃO')
+    print('Não')
